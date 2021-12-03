@@ -26,7 +26,8 @@ public class ProductDB {
 		}
 	}
 	
-	//code below creates an object 'P' from the product class, then fills it with data
+	//code below creates an object 'product' from the product class; the .productSet() method is called once the user specifies 
+	//the product code, and the relevent data is passed to the object.
 	
 	public static Product getProduct(String productCode) {
 	
